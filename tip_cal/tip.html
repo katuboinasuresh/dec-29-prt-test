@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip-caluculator</title>
+    <link rel="stylesheet" href="tip.css">
+</head>
+<body>
+    <h2>Split bill</h3>
+    <div class="container">
+        <div class="bill-container">
+           
+            <div class="inputdata">
+                <div class="bill">
+                    <p>Bill</p>
+                    <input id="b" type="number" placeholder="bill amount">
+                </div>
+                <div class="tip">
+                    <p>select tip %</p>
+                    <input id="t" type="number" placeholder="tips">
+                </div>
+                <div class="person">
+                    <p>number of persons</p>
+                    <input id="p" type="number" placeholder="number of persons">
+                </div>
+            </div>
+            <div class="outputdata">
+                <h3>Tip Amount<span>/person</span></h3><span id="tipvalue">0</span>
+                <h3>Total<span>/person</span></h3><span id="totalvale">0</span>
+                <p id="res"><button type="reset" >Reset</button></p>
+                <p id="cal"><button type="submit" onclick="calculation()">caluculate</button></p>
+
+            </div>
+        </div>
+    </div>
+    <script src="tip.js"></script>
+</body>
+</html>

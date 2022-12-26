@@ -1,0 +1,47 @@
+body{
+    height: 100%;
+    width: 90%;
+    background-color: azure;
+    margin-right: 40px;
+    margin-left: 50px;
+    
+}
+.container{
+border: 1px solid blueviolet;
+border-radius: 10px;
+width: 50%;
+background-color: hsl(172, 67%, 45%);
+text-align: center;
+}
+.bill{
+    display: block;
+}
+.tip{
+    display: block;
+}
+.bill-container{
+    padding: 30px;
+}
+.inputdata{
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid snow;
+    border-radius: 5px;
+    width: 350px;
+    background-color: bisque;
+}
+.outputdata{
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid snow;
+    border-radius: 5px;
+    width: 350px;
+    background-color: hsl(186, 92%, 10%)
+
+}
+button{
+    width: 300px;
+    height: 30px;
+
+}
