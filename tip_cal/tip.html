@@ -15,20 +15,23 @@
             <div class="inputdata">
                 <div class="bill">
                     <p>Bill</p>
-                    <input id="b" type="number" placeholder="bill amount">
+                    <input id="b" type="text" placeholder="bill amount">
                 </div>
                 <div class="tip">
                     <p>select tip %</p>
-                    <input id="t" type="number" placeholder="tips">
+                    <input id="t" type="text" placeholder="tips">
                 </div>
                 <div class="person">
                     <p>number of persons</p>
-                    <input id="p" type="number" placeholder="number of persons">
+                    <input id="p" type="text" placeholder="number of persons">
                 </div>
             </div>
             <div class="outputdata">
                 <h3>Tip Amount<span>/person</span></h3><span id="tipvalue">0</span>
                 <h3>Total<span>/person</span></h3><span id="totalvale">0</span>
+                <p id="bi"></p>
+                <p id="ti"></p>
+                <p id="n"></p>
                 <p id="res"><button type="reset" >Reset</button></p>
                 <p id="cal"><button type="submit" onclick="calculation()">caluculate</button></p>
 
