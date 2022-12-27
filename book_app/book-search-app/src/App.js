@@ -15,8 +15,6 @@ const App = () => {
       // Ajax call to API using Axios
       const result = await axios.get(`${API_URL}?q=${sTerm}`);
       setBooks(result.data);
-      // Books result
-      console.log(result.data);
   }
 
   // Submit handler
